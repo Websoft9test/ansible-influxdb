@@ -9,8 +9,8 @@
 
 ### Bug Fixes
 
-* 2020-02-14  Influxdb-version版本输出
-* 2020-02-13  Influxdb-version版本输出
+* 2020-02-14  influxdb-version版本输出
+* 2020-02-13  influxdb-version版本输出
 
 ### Features
 

@@ -3,13 +3,13 @@
 #### 如何以调试模式启动InfluxDB服务？
 
 ```
-systemctl stop Influxdb-server
-Influxdb-server console
+systemctl stop influxdb-server
+influxdb-server console
 ```
 
 #### 是否可以通过命令行修改InfluxDB后台密码？
 
-可以，`Influxdbctl change_password  admin newpassword`
+可以，`influxdbctl change_password  admin newpassword`
 
 #### 如果没有域名是否可以部署 InfluxDB？
 

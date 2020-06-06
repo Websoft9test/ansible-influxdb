@@ -4,7 +4,7 @@ Each of the following solutions has been proven to be effective and we hope to b
 
 ## Configuration 
 
-Refer to the official docs: https://www.Influxdb.com/configure.html
+Refer to the official docs: https://www.influxdb.com/configure.html
 
 ## Domain binding
 

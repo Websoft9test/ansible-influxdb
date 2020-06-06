@@ -1,8 +1,6 @@
 - src: http://github.com/websoft9dev/role_common
   version: master
 
-- src: http://github.com/websoft9dev/role_cloud
-  version: master
 
 - src: http://github.com/websoft9dev/role_nginx
   version: master
@@ -12,5 +10,5 @@
 - src: http://github.com/websoft9dev/role_preend
   version: master
 
-- src: http://github.com/websoft9dev/role_end
+#- src: http://github.com/websoft9dev/role_end
   version: master

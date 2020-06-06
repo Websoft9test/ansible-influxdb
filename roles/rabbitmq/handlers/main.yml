@@ -1,3 +1,0 @@
-- name: check_Influxdb_service
-  debug:
-    var: check_Influxdb_service.stdout

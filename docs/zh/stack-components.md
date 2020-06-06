@@ -10,8 +10,8 @@ InfluxDB 预装包包含 InfluxDB 运行所需一序列支撑软件（简称为�
 
 ### InfluxDB
 
-InfluxDB 安装目录： */data/Influxdb*  
-InfluxDB 日志目录： */data/logs/Influxdb*  
+InfluxDB 安装目录： */data/influxdb*  
+InfluxDB 日志目录： */data/logs/influxdb*  
 
 ### Nginx
 
@@ -64,5 +64,5 @@ yum info erlang
 apt show erlang
 
 # InfluxDB version
-Influxdbctl status | grep InfluxDB*
+influxdbctl status | grep InfluxDB*
 ```

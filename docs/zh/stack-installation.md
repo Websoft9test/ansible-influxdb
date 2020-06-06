@@ -11,15 +11,15 @@
 ## InfluxDB 安装向导
 
 1. 使用本地电脑的 Chrome 或 Firefox 浏览器访问网址：*http://域名:15672* 或 *http://Internet IP:15672*, 进入初始化页面
-   ![](https://libs.websoft9.com/Websoft9/DocsPicture/zh/Influxdb/Influxdb-login-websoft9.png)
+   ![](https://libs.websoft9.com/Websoft9/DocsPicture/zh/influxdb/influxdb-login-websoft9.png)
 
-2. 输入账号密码（[不知道账号密码？](/zh/stack-accounts.md#Influxdb)），成功登录到 InfluxDB 后台  
-   ![](https://libs.websoft9.com/Websoft9/DocsPicture/zh/Influxdb/Influxdb-bk-websoft9.png)
+2. 输入账号密码（[不知道账号密码？](/zh/stack-accounts.md#influxdb)），成功登录到 InfluxDB 后台  
+   ![](https://libs.websoft9.com/Websoft9/DocsPicture/zh/influxdb/influxdb-bk-websoft9.png)
 
 3. 登录后通过：【Users】>【Admin】>【Permissions】>【Update this user】设置新密码  
-   ![](https://libs.websoft9.com/Websoft9/DocsPicture/zh/Influxdb/Influxdb-pw-websoft9.png)
+   ![](https://libs.websoft9.com/Websoft9/DocsPicture/zh/influxdb/influxdb-pw-websoft9.png)
 
-> 需要了解更多 InfluxDB 的使用，请参考官方文档：[InfluxDB Documentation](https://www.Influxdb.com/documentation.html)
+> 需要了解更多 InfluxDB 的使用，请参考官方文档：[InfluxDB Documentation](https://www.influxdb.com/documentation.html)
 
 ## 常见问题
 

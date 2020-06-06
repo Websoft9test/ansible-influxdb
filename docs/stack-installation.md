@@ -11,15 +11,15 @@ If you have completed the InfluxDB deployment on Cloud Platform, the following s
 ## InfluxDB Installation Wizard
 
 1. Using local Chrome or Firefox to visit the URL *http://DNS:15672* or *http://Internet IP:15672*, you will enter installation wizard of InfluxDB
-   ![](https://libs.websoft9.com/Websoft9/DocsPicture/zh/Influxdb/Influxdb-login-websoft9.png)
+   ![](https://libs.websoft9.com/Websoft9/DocsPicture/zh/influxdb/influxdb-login-websoft9.png)
 
-2. Log in to InfluxDB web console([Don't have password?](/stack-accounts.md#Influxdb))  
-   ![](https://libs.websoft9.com/Websoft9/DocsPicture/zh/Influxdb/Influxdb-bk-websoft9.png)
+2. Log in to InfluxDB web console([Don't have password?](/stack-accounts.md#influxdb))  
+   ![](https://libs.websoft9.com/Websoft9/DocsPicture/zh/influxdb/influxdb-bk-websoft9.png)
 
 3. Set you new password from: 【Users】>【Admin】>【Permissions】>【Update this user】
-   ![](https://libs.websoft9.com/Websoft9/DocsPicture/zh/Influxdb/Influxdb-pw-websoft9.png)
+   ![](https://libs.websoft9.com/Websoft9/DocsPicture/zh/influxdb/influxdb-pw-websoft9.png)
 
-> More useful InfluxDB guide, please refer to [InfluxDB Documentation](https://www.Influxdb.com/documentation.html)
+> More useful InfluxDB guide, please refer to [InfluxDB Documentation](https://www.influxdb.com/documentation.html)
 
 ## Q&A
 

@@ -10,14 +10,14 @@ You can find the keywords **Failed** or **error** from the logs directory: `/dat
 
 #### InfluxDB service can't start?
 
-1. Use the debug mode of `Influxdb-server console` and you can see the errors
+1. Use the debug mode of `influxdb-server console` and you can see the errors
    ```
-   Influxdb-server console
+   influxdb-server console
    ```
-2. Search the keywords **Failed** or **error** from logs: */data/logs/Influxdb-server*
+2. Search the keywords **Failed** or **error** from logs: */data/logs/influxdb-server*
 
 #### Error in Chrome when modify password?
 
 This error is not attribute to InfluxDB server, once you have upgraded you local Chrome, it solved
 
-![chrome error of InfluxDB](https://libs.websoft9.com/Websoft9/DocsPicture/zh/Influxdb/Influxdb-chromeerror-websoft9.png)
+![chrome error of InfluxDB](https://libs.websoft9.com/Websoft9/DocsPicture/zh/influxdb/influxdb-chromeerror-websoft9.png)

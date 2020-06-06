@@ -3,13 +3,13 @@
 #### How can I enable the debug mode of InfluxDB service?
 
 ```
-systemctl stop Influxdb-server
-Influxdb-server console
+systemctl stop influxdb-server
+influxdb-server console
 ```
 
 #### Can I reset password of InfluxDB by command?
 
-Yes, e.g `Influxdbctl change_password  admin newpassword`
+Yes, e.g `influxdbctl change_password  admin newpassword`
 
 #### If there is no domain name, can I deploy InfluxDB?
 

@@ -4,7 +4,7 @@
 
 ## 配置
 
-参考官方方案：https://www.Influxdb.com/configure.html
+参考官方方案：https://www.influxdb.com/configure.html
 
 ## 域名绑定
 

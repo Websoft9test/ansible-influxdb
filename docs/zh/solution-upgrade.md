@@ -24,4 +24,4 @@ yum update -y
 
 ## InfluxDB升级
 
-详情参考官方升级文档：[Upgrading InfluxDB](https://www.Influxdb.com/upgrade.html)
+详情参考官方升级文档：[Upgrading InfluxDB](https://www.influxdb.com/upgrade.html)

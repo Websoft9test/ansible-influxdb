@@ -1,0 +1,3 @@
+- name: check_influxdb_service
+  debug:
+    var: check_influxdb_service.stdout

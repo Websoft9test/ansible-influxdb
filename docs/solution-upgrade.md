@@ -26,4 +26,4 @@ yum update -y
 
 ## InfluxDB Upgrade
 
-Refer to the official docs: [Upgrading InfluxDB](https://www.Influxdb.com/upgrade.html)
+Refer to the official docs: [Upgrading InfluxDB](https://www.influxdb.com/upgrade.html)

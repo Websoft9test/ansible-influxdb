@@ -1,0 +1,22 @@
+#1.prepare 
+
+- name: Import repository gpg key
+  shell: |
+    wget -qO- https://repos.influxdata.com/influxdb.key | sudo apt-key add -
+    source /etc/lsb-release
+
+#2. install InfluxDB     
+
+- block:
+  - name: Configure InfluxDB repo
+    shell:
+      echo "deb https://repos.influxdata.com/${DISTRIB_ID,,} ${DISTRIB_CODENAME} \
+       stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+
+  -name: Install InfluxDB
+     apt:
+       name: influxdb
+       update_cache: yes
+
+
+     

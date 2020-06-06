@@ -6,8 +6,8 @@ The InfluxDB deployment package contains a sequence software (referred to as "co
 
 ### InfluxDB
 
-InfluxDB installation directory:  */data/Influxdb*  
-InfluxDB logs directory:  */data/logs/Influxdb*  
+InfluxDB installation directory:  */data/influxdb*  
+InfluxDB logs directory:  */data/logs/influxdb*  
 
 ### Nginx
 
@@ -61,5 +61,5 @@ yum info erlang
 apt show erlang
 
 # InfluxDB version
-Influxdbctl status | grep InfluxDB*
+influxdbctl status | grep InfluxDB*
 ```
