@@ -7,8 +7,7 @@
 
 - name: Restart influxdb,Chronograf
   service:
-    name: influxdb.service 
-    name: chronograf
+    name: influxdb chronograf
     state: restarted
     enabled: yes
 
@@ -28,7 +27,13 @@
 
 
 # check service state
+- name: Check chronograf Service
+  shell: systemctl status chronograf | grep Active*
+  register: check_chronograf_service
+  notify: check_chronograf_service
+
 - name: Check InfluxDB Service
   shell: systemctl status influxdb | grep Active*
   register: check_influxdb_service
   notify: check_influxdb_service
+

@@ -1,3 +1,8 @@
+
+- name: check_chronograf_service
+  debug:
+    var: check_chronograf_service.stdout
+
 - name: check_influxdb_service
   debug:
     var: check_influxdb_service.stdout
