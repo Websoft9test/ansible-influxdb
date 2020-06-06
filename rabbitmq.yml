@@ -1,7 +1,7 @@
   
 # 核心任务
 
-- name: RabbitMQ
+- name: InfluxDB
   hosts: all
   become: yes
   become_method: sudo
@@ -10,28 +10,28 @@
     - vars/main.yml
   
   vars_prompt:
-    - name: 'rabbitmq_selection'
-      prompt: "Choose the RabbitMQ distribution \n
-      1: RabbitMQ 5 Classic\n
-      2: RabbitMQ Artemis\n"
+    - name: 'Influxdb_selection'
+      prompt: "Choose the InfluxDB distribution \n
+      1: InfluxDB 5 Classic\n
+      2: InfluxDB Artemis\n"
       private: no
       default: 1
 
   vars:
-    rabbitmq_select:
+    Influxdb_select:
       '1': "classic"
       '2': "artemis"
 
-    rabbitmq_distribution: "{{rabbitmq_select[rabbitmq_selection]}}"
+    Influxdb_distribution: "{{Influxdb_select[Influxdb_selection]}}"
   
   pre_tasks:
     - debug:
-        msg: Will install {{rabbitmq_distribution}}
+        msg: Will install {{Influxdb_distribution}}
 
   roles:
     - {role: role_common, tags: "role_common"}  
     - {role: role_cloud, tags: "role_cloud"}  
     - {role: role_jdk, tags: "role_jdk"}  
-    - {role: rabbitmq, tags: "rabbitmq"}
+    - {role: Influxdb, tags: "Influxdb"}
     - {role: role_preend, tags: "preend"}
     - {role: role_end, tags: "role_end"}

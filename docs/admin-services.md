@@ -1,29 +1,29 @@
 # Start or Stop the Services
 
-These commands you must know when you using the RabbitMQ of Websoft9
+These commands you must know when you using the InfluxDB of Websoft9
 
-## RabbitMQ
+## InfluxDB
 
 ```shell
-sudo systemctl start rabbitmq-server
-sudo systemctl stop rabbitmq-server
-sudo systemctl restart rabbitmq-server
-sudo systemctl status rabbitmq-server
+sudo systemctl start Influxdb-server
+sudo systemctl stop Influxdb-server
+sudo systemctl restart Influxdb-server
+sudo systemctl status Influxdb-server
 
-# you can use this debug mode if RabbitMQ service can't run
-rabbitmq-server console
+# you can use this debug mode if InfluxDB service can't run
+Influxdb-server console
 ```
 
-## RabbitMQ
+## InfluxDB
 
 ```shell
-sudo systemctl start rabbitmq-server
-sudo systemctl stop rabbitmq-server
-sudo systemctl restart rabbitmq-server
-sudo systemctl status rabbitmq-server
+sudo systemctl start Influxdb-server
+sudo systemctl stop Influxdb-server
+sudo systemctl restart Influxdb-server
+sudo systemctl status Influxdb-server
 
-# you can use this debug mode if RabbitMQ service can't run
-rabbitmq-server console
+# you can use this debug mode if InfluxDB service can't run
+Influxdb-server console
 ```
 
 ### MySQL
