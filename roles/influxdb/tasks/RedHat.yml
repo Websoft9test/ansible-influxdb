@@ -1,9 +1,8 @@
-#1.install InfluxDB
+#1.prepare
 
+- name: Import key
+  shell: rpm --import https://repos.influxdata.com/influxdb.key
 
--name: Import key
- shell: rpm --import https://repos.influxdata.com/influxdb.key
- 
 - name: Configure influxdb repo
   yum_repository: 
     name: influxdb
@@ -12,6 +11,7 @@
     gpgcheck: yes
     enabled:  yes
 
+# install InfluxDB
 
 - block:
   - name: Install InfluxDB
