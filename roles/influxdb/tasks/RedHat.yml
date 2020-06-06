@@ -2,7 +2,8 @@
 
 - name: Configure influxdb repo
   yum_repository: 
-    name: InfluxDB Repository - RHEL \$releasever
+    name: influxdb
+    description: InfluxDB Repository - RHEL \$releasever
     baseurl: https://repos.influxdata.com/rhel/\$releasever/\$basearch/stable
     gpgcheck: https://repos.influxdata.com/influxdb.key
     enabled:  yes
