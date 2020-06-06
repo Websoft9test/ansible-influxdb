@@ -7,7 +7,7 @@
 
 - name: Restart influxdb,
   service:
-    name: influxdb.service,chronograf
+    name: influxdb.service , chronograf
     state: restarted
     enabled: yes
 
