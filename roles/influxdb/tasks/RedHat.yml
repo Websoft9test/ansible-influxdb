@@ -12,3 +12,8 @@
     yum:
       name: influxdb
       update_cache: yes
+  
+  - name: Install InfluxDB web GUI
+    yum:
+      name: chronograf
+      

@@ -18,5 +18,8 @@
        name: influxdb
        update_cache: yes
 
+  - name: Install InfluxDB web GUI
+    apt:
+      name: chronograf
 
      
