@@ -5,9 +5,10 @@
 # configure InfluxDB
 
 
-- name: Restart influxdb,
+- name: Restart influxdb,Chronograf
   service:
-    name: influxdb.service  chronograf
+    name: influxdb.service 
+    name: chronograf
     state: restarted
     enabled: yes
 
