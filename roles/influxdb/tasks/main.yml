@@ -21,9 +21,9 @@
 # ln -sb src des
 - name: set soft link
   shell: |
-    ln -sb /usr/lib/influxdb   /data/wwwroot/influxdb
-    ln -sb /etc/influxdb/influxdb.conf   /data/config/influxdb
-    ln -sb /var/log/influxdb/influxd.log   /data/logs/influxdb
+    ln -sf /usr/lib/influxdb   /data/wwwroot
+    ln -sf /etc/influxdb/influxdb.conf   /data/config
+    ln -sf /var/log/influxdb/influxd.log   /data/logs
 # Check version,
 # must use sudo sh -c to solve the no-root permission
 - block:

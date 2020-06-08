@@ -20,10 +20,7 @@
 
 #  InfluxDB web GUI : chronograf
   - name: Install chronograf
-    unarchive:
-      src: "https://dl.influxdata.com/influxdb/releases/influxdb_{{influxdb_download_version}}_amd64.deb"
-      dest: /usr/lib/
-      remote_src: yes
-      owner: influxdb
-      group: influxdb
+    shell: |
+      wget  https://dl.influxdata.com/chronograf/releases/chronograf_{{influxdb_version}}_amd64.deb
+      dpkg -i chronograf_{{influxdb_version}}_amd64.deb
      
