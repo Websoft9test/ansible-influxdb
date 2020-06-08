@@ -37,7 +37,8 @@ gpgkey = https://repos.influxdata.com/influxdb.key
 
 sudo yum -y install influxdb #安装influxdb
 
-sudo yum -y install chronograf  #安装influxdb web gui
+ #安装influxdb web gui: 采用官网下载rpm安装
+
 sudo systemctl start influxdb chronograf
 sudo systemctl enable influxdb chronograf
 ```
