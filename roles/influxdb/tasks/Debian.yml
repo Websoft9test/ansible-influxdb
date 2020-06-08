@@ -18,7 +18,7 @@
       update_cache: yes
 
 
-#  InfluxDB web GUI : chronograf
+#  InfluxDB web GUI: chronograf
   - name: Install chronograf
     shell: |
       wget  https://dl.influxdata.com/chronograf/releases/chronograf_{{chronograf_version}}_amd64.deb
