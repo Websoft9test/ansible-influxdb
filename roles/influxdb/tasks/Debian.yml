@@ -11,12 +11,12 @@
   - name: Configure InfluxDB repo
     shell:
       echo "deb https://repos.influxdata.com/${DISTRIB_ID,,} ${DISTRIB_CODENAME} \
-       stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+      stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
 
   - name: Install InfluxDB
-     apt:
-       name: influxdb
-       update_cache: yes
+    apt:
+      name: influxdb
+      update_cache: yes
 
   - name: Install InfluxDB web GUI
     apt:
