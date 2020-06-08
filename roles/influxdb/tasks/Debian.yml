@@ -17,8 +17,13 @@
       name: influxdb
       update_cache: yes
 
-  - name: Install InfluxDB web GUI
-    apt:
-      name: chronograf
 
+#  InfluxDB web GUI : chronograf
+  - name: Install chronograf
+    unarchive:
+      src: "https://dl.influxdata.com/influxdb/releases/influxdb_{{influxdb_download_version}}_amd64.deb"
+      dest: /usr/lib/
+      remote_src: yes
+      owner: influxdb
+      group: influxdb
      
