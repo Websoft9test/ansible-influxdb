@@ -21,6 +21,6 @@
 #  InfluxDB web GUI : chronograf
   - name: Install chronograf
     shell: |
-      wget  https://dl.influxdata.com/chronograf/releases/chronograf_{{influxdb_version}}_amd64.deb
-      dpkg -i chronograf_{{influxdb_version}}_amd64.deb
+      wget  https://dl.influxdata.com/chronograf/releases/chronograf_{{chronograf_version}}_amd64.deb
+      dpkg -i chronograf_{{chronograf_version}}_amd64.deb
      
