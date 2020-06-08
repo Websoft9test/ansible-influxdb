@@ -20,7 +20,7 @@
       update_cache: yes
       state: latest
 
-#  InfluxDB web GUI: chronograf
+# InfluxDB web GUI: chronograf
   - name: Install InfluxDB web GUI
     shell: |
       wget https://dl.influxdata.com/chronograf/releases/chronograf-{{chronograf_version}}.x86_64.rpm
