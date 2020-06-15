@@ -1,9 +1,9 @@
 # InfluxDB.Notes
 
 组件名称：couchdb 
-安装文档：https://docs.influxdata.com/influxdb/v1.7/introduction/installation/
-配置文档：https://docs.couchdb.org/en/latest/config/index.html
-支持平台：Debian家族 | RHEL家族 | Windows | macOS | Docker
+安装文档：https://docs.influxdata.com/influxdb/v1.7/introduction/installation/  
+配置文档：https://docs.couchdb.org/en/latest/config/index.html  
+支持平台：Debian家族 | RHEL家族 | Windows | macOS | Docker  
 
 责任人：helin
 
