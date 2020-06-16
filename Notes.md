@@ -1,6 +1,6 @@
 # InfluxDB.Notes
 
-组件名称：couchdb 
+组件名称：influxdb
 安装文档：https://docs.influxdata.com/influxdb/v1.7/introduction/installation/  
 配置文档：https://docs.couchdb.org/en/latest/config/index.html  
 支持平台：Debian家族 | RHEL家族 | Windows | macOS | Docker  
@@ -91,8 +91,9 @@ bind-address = "your ip:8083"
 
 * 登录地址 
 * 账号密码    
-* 密码修改方案：最好是有命令行修改密码的方案
-
+* 密码修改方案：
+https://v2.docs.influxdata.com/v2.0/users/change-password/     #官网改密网址
+influx user password -n <username>
 
 ## 服务
 
