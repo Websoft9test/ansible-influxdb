@@ -5,6 +5,7 @@
 1. 更详细的规范说明
 
 ## Logs
+   https://portal.influxdata.com/downloads/   # influxdb  downloads_url
 
 ### Bug Fixes
 
