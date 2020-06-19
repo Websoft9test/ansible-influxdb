@@ -4,6 +4,6 @@ region: "0"
 # influxdb variable
 
 
-preend_certbot: True
+
 nginx_reverse_proxy_port: "8888"
 
